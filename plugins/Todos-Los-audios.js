@@ -32,7 +32,7 @@ let vn = './Audios/спать.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}   
    
-if (!chat.isBanned && chat.audios && m.text.match(/(bebito fiu fiu|bff|Bebito Fiu Fiu|Bff)/gi)) {    
+if (!chat.isBanned && chat.audios && m.text.match(/(beito fiu fiu|bff|Bebito Fiu Fiu|Bff)/gi)) {    
 let vn = './Audios/bff.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}  
