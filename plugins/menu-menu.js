@@ -20,9 +20,9 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let str = `
-╭「➻❥Ванилька➻❥」
-│➯ *Создатель:ᴏғᴄ➟Лёлька*
-│➯ **Номер➟77072763560*
+╭「➻❥⎝⎝✧ХУЛИГАН✧⎠⎠➻❥」
+│➯ *Создатель:ᴏғᴄ➟Серёга*
+│➯ **Номер➟79531126750*
 │➯ *время работы:➟*${uptime}
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢

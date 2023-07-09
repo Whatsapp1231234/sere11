@@ -1,8 +1,8 @@
 # `🧿HADES-BOT-OMEGA🧿`
 
 ### `🏓DUDAS SOBRE EL BOT?, CONTACTANOS🍁`
-<a href="http://wa.me/77072763560" target="blank"><img src="https://img.shields.io/badge/OFC-YOVANI_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="http://wa.me/77072763560" target="blank"><img src="https://img.shields.io/badge/OFC-YOVANI_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/79531126750" target="blank"><img src="https://img.shields.io/badge/OFC-YOVANI_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/79531126750" target="blank"><img src="https://img.shields.io/badge/OFC-YOVANI_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
 ### `⛄ GRUPO DE INFORMACIÓN DEL BOT Y ACTUALIZACIONES🧿`
@@ -13,7 +13,7 @@
 
 ### `—◉ 🤖 BOTS OFICIALES 🤖`
 
-<a href="https://api.whatsapp.com/send/?phone=77072763560&text&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT-OFICIAL.1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://api.whatsapp.com/send/?phone=79531126750&text&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT-OFICIAL.1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
  > NO SPAMEAR COMANDOS
 
@@ -70,7 +70,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/Whatsapp1231234/ayra.git && cd ayra
+git clone https://github.com/Whatsapp1231234/sere11.git && cd sere11
 ```
 
 ```bash

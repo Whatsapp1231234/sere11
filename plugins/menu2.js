@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems }) => {
 try {
-await m.reply(`╭「➻❥Ванилька➻❥」\n│➯ *(♦️)*ВВЕДИТЕ ТЕКСТ АУДИО, КОТОРОЕ ВЫ ХОТИТЕ ВОСПРОИЗВЕСТИ*\n︎╰───────────────╯\n\n\n`)
+await m.reply(`╭「➻❥⎝⎝✧ХУЛИГАН✧⎠⎠➻❥」\n│➯ *(♦️)*ВВЕДИТЕ ТЕКСТ АУДИО, КОТОРОЕ ВЫ ХОТИТЕ ВОСПРОИЗВЕСТИ*\n︎╰───────────────╯\n\n\n`)
 let pp = imagen3
 let vn = './Audios/menu.mp3'
 let img = await(await fetch('https://i.imgur.com/JP52fdP.jpg')).buffer()
@@ -18,10 +18,10 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭「➻❥Ванилька➻❥」
+let str = `╭「➻❥⎝⎝✧ХУЛИГАН✧⎠⎠➻❥」
 │➯ *Привет,➟${taguser}
-│➯ *Создатель:ᴏғᴄ➟Лёлька
-│➯ **Номер*➟77072763560
+│➯ *Создатель:ᴏғᴄ➟Серёга
+│➯ **Номер*➟79531126750
 │➯ *ғᴇᴄʜᴀ:➟${date}
 │➯ *ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:➟${uptime}
 │➯ *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}
@@ -36,7 +36,7 @@ let str = `╭「➻❥Ванилька➻❥」
 │➯ *No pedí tu opinión*
 │➯ *Senpai*
 │➯ *esto va a ser épico*
-│➯⫷᭄©Ванилька✍
+│➯⫷᭄©⎝⎝✧ХУЛИГАН✧⎠⎠✍
 ︎╰───────────────╯`.trim()
 if (m.isGroup) {
 await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
