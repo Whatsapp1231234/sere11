@@ -19,20 +19,23 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let str = `╭「➻❥КОМАНДЫ ВАНИЛЬКИ➻❥」
+let str = `╭「➻❥КОМАНДЫ➻❥」
 │➯ *Привет*,➟${taguser}
 │➯ *Мой➟ Создатель*
 │➯ *Серёга*➟79531126750*
 │➯ *Время работы*:➟${uptime}
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
-╭「➻❥ *Активаровать* ➻❥」
+╭───────────────
 │➯>>>>>>>>>>>>>>>>>>>>>>
 │➯💟 #включить /выключить приветствие 
-│➯💟 #группу закрыть/открыть
+│➯💟 #включить /выключить антимат
 │➯💟 #включить/выключить антиссылка
 │➯💟 #включить /выключить антиссылка2 
-│➯💟 #добавить @
+│➯💟 #включить/выключить  антиараб
+включить антивирус
+включить антимат
+включить аудио
 │➯💟 #снести @/или выделить сообщение
 │➯💟 #внимание 
 │➯💟 #вызов  
@@ -59,7 +62,7 @@ conn.sendMessage(m.chat, { image: pp, caption: str.trim(), mentions: [...str.mat
 } catch {
 conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝚈 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙴𝙽𝚅𝙸𝙰𝚁𝙻𝙾, 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*', m)
 }}
-handler.command = /^(список|Comangrupos)$/i
+handler.command = /^(Comangrupos)$/i
 handler.exp = 50
 handler.fail = null
 handler.register = true
