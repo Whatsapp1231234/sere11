@@ -3,7 +3,7 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isP
 try {
 await m.reply(`╭「➻❥⎝⎝✧ХУЛИГАН✧⎠⎠➻❥」\n│➯ *(♦️)*ВВЕДИТЕ ТЕКСТ АУДИО, КОТОРОЕ ВЫ ХОТИТЕ ВОСПРОИЗВЕСТИ*\n︎╰───────────────╯\n\n\n`)
 let pp = imagen3
-let vn = './Audios/menu.mp3'
+let vn = './Audios/приветт.mp3'
 let img = await(await fetch('https://i.imgur.com/JP52fdP.jpg')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'es'
@@ -30,10 +30,9 @@ let str = `╭「➻❥⎝⎝✧ХУЛИГАН✧⎠⎠➻❥」
 │➯ *правила*
 │➯ *мечтаю*
 │➯ *люблю*
-│➯ *здраствуйте*
 │➯ *надоел*
 │➯ *я тут*
-│➯ *Сломайся*
+│➯ *сломайся*
 │➯ *кайфую*
 │➯⎝⎝✧ХУЛИГАН✧⎠⎠✍
 ︎╰───────────────╯`.trim()
