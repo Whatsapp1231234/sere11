@@ -57,8 +57,8 @@ let vn = './Audios/кайф.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(giagnosticadoconlet|diagnosticado con let|diagnosticado let|te diagnóstico con gay|diagnóstico gay|te diagnostico con gay|te diagnóstico con gay|te diagnosticó con gay|te diagnostico con gay)/gi)) {    
-let vn = './Audios/DiagnosticadoConGay.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(Секс|секс)/gi)) {    
+let vn = './Audios/секс.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
