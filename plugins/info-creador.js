@@ -18,7 +18,7 @@ let buttonMessage= {
 'mediaUrl': 'https://github.com',
 'mediaType': 2,
 'previewType': 'pdf',
-'title': 'здравствуйте ᴡʜᴀᴛsᴀᴘᴘ⁩',
+'title': 'Я использую ᴡʜᴀᴛsᴀᴘᴘ⁩',
 'body': wm,
 'thumbnail': imagen1,
 'sourceUrl': 'https://Wa.me/79531126750' }},
