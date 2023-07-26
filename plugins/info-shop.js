@@ -17,7 +17,7 @@ let text = `╭「➻❥⎝⎝✧ХУЛИГАН✧⎠⎠➻❥」
 │➯ *.dinero*
 ︎╰───────────────╯`.trim()   
 let buttonMessage= {
-'document': { url: `https://github.com/OFC-YOVANI/HADES-BOT-OMEGA` },
+'document': { url: `https://github.com` },
 'mimetype': `application/${document}`,
 'fileName': `⫷᭄ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ﹏✍`,
 'fileLength': 99999999999999,
@@ -26,13 +26,13 @@ let buttonMessage= {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://github.com/OFC-YOVANI/HADES-BOT-OMEGA',
+'mediaUrl': 'https://github.com',
 'mediaType': 2,
 'previewType': 'pdf',
 'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
 'body': wm,
 'thumbnail': imagen1,
-'sourceUrl': 'https://youtu.be/4eA5nDxPjOA' }},
+'sourceUrl': 'https://youtu.be' }},
 'caption': text,
 'footer': wm,
 //'buttons':[
