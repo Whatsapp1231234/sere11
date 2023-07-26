@@ -33,5 +33,5 @@ conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
 handler.command = /^(создатель|creator|creador|propietario)$/i
-handler.register = true
+
 export default handler

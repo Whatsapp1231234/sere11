@@ -9,5 +9,5 @@ handler.command = /^(снести|echar|hechar|sacar)$/i
 handler.admin = true
 handler.group = true
 handler.botAdmin = true
-handler.register = true
+
 export default handler

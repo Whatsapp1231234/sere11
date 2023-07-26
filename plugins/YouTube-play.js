@@ -4,28 +4,27 @@ import ytdl from 'ytdl-core'
 import axios from 'axios'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
-if (!text) throw ` *[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽* \n\n *—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:* \n *${usedPrefix + command} Farruko beba* \n\n\n*[❗𝐈𝐍𝐅𝐎❗]MISSING SONG NAME PLEASE ENTER COMMAND PLUS SONG NAME* \n\n *—◉ AN EXAMPLE* \n *${usedPrefix + command} Farruko beba* `
+if (!text) throw ` *[❗𝐈𝐍𝐅𝐎❗]ПРОПУЩЕННОЕ НАЗВАНИЕ ПЕСНИ, ПОЖАЛУЙСТА, ВВЕДИТЕ КОМАНДУ ПЛЮС НАЗВАНИЕ ПЕСНИ* \n\n *—◉ ПРИМЕР* \n *${usedPrefix + command} Название песни* `
 try {
-await m.reply(` *_⏳ESPERA MIENTRAS LE MANDAMOS SU PEDIDO⏳* \n\n *_⏳WAIT WHILE WE SEND YOUR ORDER_⏳* `)
-await m.reply(`*Si no se envia tu pedido puedes usar los comandos* \n*/audio Farruko beba*\n*/video Farruko beba*`)
-await m.reply(`⌛ _Cargando..._\n▰▰▰▱▱▱▱▱▱`)
+await m.reply(` *_⏳ПОДОЖДИТЕ, ПОКА МЫ ОТПРАВИМ ВАШ ЗАКАЗ_⏳* `)
+await m.reply(`⌛ _Загрузка..._\n▰▰▰▱▱▱▱▱▱`)
 const yt_play = await search(args.join(" "))
 let additionalText = ''
-if (command === 'play') {
+if (command === 'плей') {
 additionalText = 'audio 🔊'
-} else if (command === 'play2') {
+} else if (command === 'плей2') {
 additionalText = 'video 🎥'}
 let texto1 = `༴⃟🌹๋ོ࣭ꦿ⁩PLAY-YouTube--⦿
 ----------------------------------------------------------------------------------------------------------
 ⇄    ◁   ㅤ  ❚❚ㅤ   ▷ㅤ    ↻
-➯➤͜͡🎶📌 *name:* ${yt_play[0].title}
-➯➤📆 *Published:* ${yt_play[0].ago}
-➯➤⌚ *Duration:* ${secondString(yt_play[0].duration.seconds)}
-➯➤👀 *Views:* ${`${MilesNumber(yt_play[0].views)}`}
-➯➤🔗 *Link:* ${yt_play[0].url}
-▢⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍`.trim()
+➯➤͜͡🎶📌 *Название:* ${yt_play[0].title}
+➯➤📆 *дата:* ${yt_play[0].ago}
+➯➤⌚ *Время:* ${secondString(yt_play[0].duration.seconds)}
+➯➤👀 *Просмотры:* ${`${MilesNumber(yt_play[0].views)}`}
+
+➯⎝⎝✧ХУЛИГАН✧⎠⎠✍`.trim()
 conn.sendMessage(m.chat, { image: { url: yt_play[0].thumbnail }, caption: texto1 }, { quoted: m })
-if (command == 'play') {
+if (command == 'плей') {
 try {
 let q = '128kbps'
 let v = yt_play[0].url
@@ -60,7 +59,7 @@ conn.sendMessage(m.chat, { audio: { url: ress.url }, fileName: __res[0].title + 
 } catch {
 await conn.reply(m.chat, '*[❗] 𝙴𝚁𝚁𝙾𝚁 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝙴𝙻 𝙰𝚄𝙳𝙸𝙾*', m)}}}}}
 }  
-if (command == 'play2') {
+if (command == 'плей2') {
 try {
 let qu = '360'
 let q = qu + 'p'
@@ -73,7 +72,7 @@ await await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}
 } catch {   
 try {  
 let mediaa = await ytMp4(yt_play[0].url)
-await conn.sendMessage(m.chat, { video: { url: mediaa.result }, fileName: `error.mp4`, caption: `⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍`, thumbnail: mediaa.thumb, mimetype: 'video/mp4' }, { quoted: m })     
+await conn.sendMessage(m.chat, { video: { url: mediaa.result }, fileName: `error.mp4`, caption: `⫷➯⎝⎝✧ХУЛИГАН✧⎠⎠✍`, thumbnail: mediaa.thumb, mimetype: 'video/mp4' }, { quoted: m })     
 } catch {  
 try {
 let lolhuman = await fetch(`https://api.lolhuman.xyz/api/ytvideo2?apikey=${lolkeysapi}&url=${yt_play[0].url}`)    
@@ -90,10 +89,10 @@ throw "*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅
 }
 handler.help = ["play", "play2"].map((v) => v + " < busqueda >")
 handler.tags = ["downloader"]
-handler.command = /^play2?$/i
+handler.command = /^плей2?$/i
 handler.exp = 0
 handler.limit = 4
-handler.register = true
+
 export default handler
 
 async function search(query, options = {}) {
