@@ -17,7 +17,7 @@ let res = await aaaa.map((v) => `*🎬 • Nombre:* ${v.title}\n*🍿 • Url:* 
 let ads = '*💫 • Рекомендуемый блокировщик рекламы: *Заблокируйте это\n*⛨ • Link:* https://block-this.com/block-this-latest.apk\n\n≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣\n\n'
 conn.sendMessage(m.chat, { image: { url: img }, caption: ads + res }, {quoted: m})
 }
-handler.command = ['cuevana', 'pelisplus']
+handler.command = ['фильм', 'pelisplus']
 
 handler.limit = 3
 export default handler

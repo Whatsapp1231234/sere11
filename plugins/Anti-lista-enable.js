@@ -295,7 +295,7 @@ throw false
 }
 bot.antiCall = isEnable
 break
-case 'antiprivado':
+case 'антипривадо':
 isAll = true
 if (!isROwner) {
 global.dfail('rowner', m, conn)
