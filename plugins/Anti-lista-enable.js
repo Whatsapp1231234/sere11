@@ -93,7 +93,7 @@ let optionsFull = `--------------------------------
 *Вариант:* ⏳ | АНТИСПАМ
 *Команда:* /включить антиспам
 *Описание:* Бот определяет, когда пользователь спамит команду, блокирует его на 5 секунд и предупреждает..
-*Примечание. * Эту команду можно использовать только
+*Примечание. * Эту команду можно использовать только в группе
 --------------------------------`.trim()
 
 let isEnable = /true|включить|(turn)?on|1/i.test(command)
@@ -163,7 +163,7 @@ throw false
 }}
 chat.delete = isEnable
 break
-case 'antidelete':
+case 'антиудаление':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
@@ -287,7 +287,7 @@ throw false
 }
 global.opts['swonly'] = isEnable
 break
-case 'anticall':
+case 'антивызов':
 isAll = true
 if (!isROwner) {
 global.dfail('rowner', m, conn)
