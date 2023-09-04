@@ -3,7 +3,7 @@ var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.present
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let text = `╭─「➻❥ *Создатель* ➻❥」
 │➯ ⫷᭄©⎝⎝✧ХУЛИГАН✧⎠⎠﹏✍
-│➯Wa.me/79531126750 (Создатель)
+│➯Wa.me/79086701867 (Создатель)
 ╰───────────────╯`.trim()   
 let buttonMessage= {
 'document': { url: `https://github.com` },
@@ -21,7 +21,7 @@ let buttonMessage= {
 'title': 'Я использую ᴡʜᴀᴛsᴀᴘᴘ⁩',
 'body': wm,
 'thumbnail': imagen1,
-'sourceUrl': 'https://Wa.me/79531126750' }},
+'sourceUrl': 'https://Wa.me/79086701867' }},
 'caption': text,
 'footer': wm,
 //'buttons':[
