@@ -21,7 +21,7 @@ var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.present
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let str = `
 ╭「➻❥⎝⎝✧ХУЛИГАН✧⎠⎠➻❥」
-│➯ *Создатель:ᴏғᴄ➟Серёга*
+│➯ *Создатель:➟Серёга*
 │➯ **Номер➟79086701867*
 │➯ *время работы:➟*${uptime}
 ︎╰───────────────╯
