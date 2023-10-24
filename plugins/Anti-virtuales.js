@@ -24,7 +24,17 @@ await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')}
 if (m.sender.startsWith('994' || '994')) {
 global.db.data.users[m.sender].banned = true
 m.reply(`*[❗] ЗДРАВСТВУЙТЕ, СООБЩАЮ ВАМ, ЧТО ВИРТУАЛЬНЫЕ НОМЕРА В ЭТОЙ ГРУППЕ ЗАПРЕЩЕНЫ  🍀*`)
-await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')}    
+await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')}   
+
+if (m.sender.startsWith('79294200919' || '79294200919')) {
+global.db.data.users[m.sender].banned = true
+m.reply(`*[❗] ЗДРАВСТВУЙТЕ, СООБЩАЮ ВАМ, ЧТО ВИРТУАЛЬНЫЕ НОМЕРА В ЭТОЙ ГРУППЕ ЗАПРЕЩЕНЫ  🍀*`)
+await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')}
+
+if (m.sender.startsWith('994' || '79331693967')) {
+global.db.data.users[m.sender].banned = true
+m.reply(`*[❗] ЗДРАВСТВУЙТЕ, СООБЩАЮ ВАМ, ЧТО ВИРТУАЛЬНЫЕ НОМЕРА В ЭТОЙ ГРУППЕ ЗАПРЕЩЕНЫ  🍀*`)
+await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')} 
    
 }}
 
