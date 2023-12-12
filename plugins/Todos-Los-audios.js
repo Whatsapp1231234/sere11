@@ -214,7 +214,7 @@ let vn = './Audios/фуу.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 
-if (!chat.isBanned && chat.audios && m.text.match(/(завтра на работу|Завтра на работу)/gi)) {    
+if (!chat.isBanned && chat.audios && m.text.match(/(завтра на работу)/gi)) {    
 let vn = './Audios/завтра.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
