@@ -245,6 +245,11 @@ if (!chat.isBanned && chat.audios && m.text.match(/(печалька|Печал�
 let vn = './Audios/печалька.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+
+if (!chat.isBanned && chat.audios && m.text.match(/(от души|От души)/gi)) {    
+let vn = './Audios/от души.mp3'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
    
 return !0 }
 
