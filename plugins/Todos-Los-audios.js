@@ -238,7 +238,7 @@ this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt
 
    
     
-if (!chat.isBanned && chat.audios && m.text.match(/(🌲|🎄)/gi)) {    
+if (!chat.isBanned && chat.audios && m.text.match(/(С новым годом|с новым годом)/gi)) {    
 let vn = './Audios/елка.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
