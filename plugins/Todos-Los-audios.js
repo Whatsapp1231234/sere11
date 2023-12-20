@@ -236,15 +236,10 @@ let vn = './Audios/завтра.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 
-
-if (!chat.isBanned && chat.audios && m.text.match(/(🎄|🌲)/gi)) {    
-let vn = './Audios/Bot елка.mp4'
-this.sendPresenceUpdate('recording', m.chat)   
-this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
    
     
-if (!chat.isBanned && chat.audios && m.text.match(/(Bot maricon|Botmaricon|bot maricon|bot marica|Bot marica|marica|Marica|maricon|Maricon)/gi)) {    
-let vn = './Audios/Bot maricon.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(🌲|🎄)/gi)) {    
+let vn = './Audios/елка.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 
