@@ -10,5 +10,5 @@ ptt: true })
 }
 handler.help = ['gay']
 handler.tags = ['maker']
-handler.command = /^(радуга)$/i
+handler.command = /^()ЫКНОЫНОРЕНО$/i
 export default handler
