@@ -68,7 +68,7 @@ mentions: m.mentionedJid
 } : {})}
 if (command == 'хитрый') {
 conn.reply(m.chat, `
-_*${text.toUpperCase()}* *ТЫ ХИТРЕЙ МЕНЯ НА* *${(500).getRandom()}%* *ПОДТВЕРЖДЕННО*_
+_*${text.toUpperCase()}* *ООО ВОТ ЭТО ТЫ ХИТРОЖОПЫЙ* *ПИЗДЮК* *НАДО ТЕБЯ ПРОУЧИТЬ*_
 `.trim(), m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}         
